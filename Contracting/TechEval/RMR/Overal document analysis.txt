@@ -1,0 +1,44 @@
+Overal document analytis
+
+total pages
+	tech
+	PM / Agile (generic VIP process)
+
+
+Proposal Summary
+
+Summary of Significant Strengths and Strengths
+
+Summmary of Significant Weaknesses and Weaknesses
+
+Summary of Deficiencies
+
+
+
+Understanding the Problem
+Feasibility of Approach
+Rating
+
+
+
+1. Technical Evaluation Criteria:  The evaluation of the technical proposal will consider the following: 
+ 
+a. Understanding of the Problem - The technical proposal was evaluated to determine the extent to which it demonstrates a clear understanding of all features involved in solving the problems and meeting and/or exceeding the requirements presented in the task and the extent to which uncertainties are identified and resolutions proposed. 
+ 
+b. Feasibility of Approach - The technical proposal was evaluated to determine the extent to which the proposed approach is workable and the end results achievable.  The technical proposal was evaluated to determine the level of confidence provided the Government with respect to the Offeror’s methods and approach in successfully meeting and/or exceeding the requirements in a timely manner.
+
+2. Proposal Summary:  
+ 
+The Offeror’s proposal included the following elements:
+ 
+Brief summary paragraph of what the proposal contains without evaluation, commentary or any opinion. 
+
+The Offeror proposed to team with [insert number of subs] subcontractor(s).  
+
+
+
+
+
+A good thing to keep in mind when you are writing the Strengths, Weaknesses and Deficiencies is “What, Why, How, and What.” The strengths, weaknesses, and deficiencies are all about “the approach”. 
+
+

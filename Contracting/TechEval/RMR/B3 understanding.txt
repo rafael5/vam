@@ -1,0 +1,100 @@
+Undestanding of the problem
+
+1.	Segregating the non-clinical functions and identify all the RPCs that are used by CPRS.
+=> This is only partially correct.  Identification of CPRS RPCs is required, but this is an obvious statement.  Segrating non-cliical functions from what?  
+
+2.	Create a centralized service layer that will contain the functionalities encapsulated in those RPCs used by CPRS.
+=> Incorrect.  The RTEP requires centralized services based on the *emulation* of those RPCs used by CPRS. This is not about encapsulating RPC logic.
+
+
+3.	Provide a secure mechanism for communication to and from VistA by properly encrypting the RPC communication.
+=> Correct. However this is not the most important requirement.
+
+4.	Consolidate all the CPRS functionalities into a single service layer. Due to several class III development efforts, the list of RPCs can differ from one VistA system to another. Having one single middle layer would alleviate this uncertainty, and will make centralized deployment possible.
+=> Offeror doesn't understand that CPRS RPCs are NOT class III.  This shows poor understanding of the VA's VistA system, and CPRS RPCs specifically.
+
+
+5.	Finally, a middle-layer written in a non-MUMPs language will allow future COTS products to interface with VistA seamlessly without any MUMPS programming.
+
+=> How do mid layer (5) and service layer (4) differ ... this seems to be exploring two different things.
+
+
+
+
+
+
+This project is about [1] retiring patient care functionality in 130 VISTAs [2] centralizing that function across VA [3] in such a way that CPRS and VPR using clients run unchanged ... per se class III is ignored and not in scope ... the services in question are the same in all VISTAs.
+
+
+
+=> but fail to explain it beyond repeating VDP's own project descriptions which were not written to address the specific requirements of this project.
+
+=> they don't get it and ref inapplicable and partially applicable projects
+
+
+shows they are just throwing in pre-existing PROJECTS (plural) ... VDP and VIA that don't fully or at all apply to address the very unique demands of this new project
+
+
+
+Poor understanding of the problem and solution:
+
+This RTEP is not looking for a review of pre-existing VISTA projects. 
+
+The Offeor provides references to prior VISTA projects as the basis of their proposal. One which they were involved with (VIA) and one which they were not (VDP).  However, there is no overlap or only partial overlap with the VIA and VDP projects respectively. 
+
+
+
+Page 2
+
+"In our VIA contract, we have developed services for Orders Management and Scheduling domain.... Although VIA services were developed in Java, the basic principles and methodology will remain the same."
+
+=> VIA has no overlap with this project. There is no NO emulation and no modeling involved. There is only legacy MUMPS RPC encapsulation (in Java) involved.
+
+
+
+
+Page 3
+
+ "Team B3 proposes to build on the work that has already been done through the VistA data project."
+
+
+=> VDP' scope only partially overlaps. It includes modeling from FileMan up to a normalized model, the emulation of RPCs. However its focus is VISTA re-engineering as opposed to replacement.  
+
+=> The Offeror doesn't show what parts of VDP are relevant and what additions need to be made. Copying the language and figures (2 and 5) of a different VA project is not a response.
+
+Specific gaps in the Offeror's proposal include:
+
+
+SPECIFICALLY THEY FAIL TO NOTE: "migrate functionality and emulate RPCs over a service layer to [1] retire VISTA migrated function, [2] allow CPRS to run unchanged" ... there's nothing in the opening to suggest they understand VISTA function retiring or CPRS not changing ... just vague language about services and "middle layers"
+
+In VDP ... they fail to explain even that ... "what is a "symmetric read-write interface" and how does it apply here" ... not in the PWS or RTEP
+
+
+
+
+no need to just ding on lack of VDP understanding and that VDP's scope is different from this project's but also ding on the VIA ... this is good indirection!@
+
+
+Also show lack of understanding of the VDP...as clearly they don't know that VDP's  scope (symm read write for EACH VISTA) is not national services ...
+
+[1] NOTHING RETIRED IN VISTA
+[2] RPC wrapping not emulation 
+[3] mid tier talks to VISTA but doesn't provide a centralized service
+
+
+
+
+
+
+=================== PROSPHERE
+
+Note: There was extensive “process” detail (Agile, etc.).  However, it is not sufficient to state one has a process ("our Requirement Analysis Process") and giving a generic blurb on it is NOT addressing the specifics of emulation in any way. It's equivalent to saying "we can address this requirement with a process we have". ... there's no SPECIFIC information on mechanism"
+
+ie/ "show you understand the problem" is not "we have a process for analyzing requirements of any kind"
+
+
+
+
+
+
+

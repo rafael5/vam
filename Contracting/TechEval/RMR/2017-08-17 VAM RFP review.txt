@@ -1,0 +1,196 @@
+2017-08-17 VAM RFP review
+
+Echo'd the problem
+lack of knowledge
+
+Fileman modelling
+	VICS has to be a refined model over base model
+	Fileman model vs Services model
+
+
+=> With no change in CPRS (delphi) or VISTA (MUMPS)
+
+1. No change in VISTA or CPRS code or system 
+	=> FAIL
+2. Any new code is not MUMPS; all code must be JS/Node
+3. Must use proper cloud-compatible DB  (Mongo)
+	=> No Fileman / MUMPS
+4. How build one of these services
+
+
+If need to change CPRS => FAIL
+
+Do they understand the problem?
+	Requires routing RPCs to
+	If REST over Fileman - there is no understanding
+
+VISTA keeps its existing interfaces
+	we are not enhancing vista
+	we are taking AWAY from vista
+		in a way that it still functions
+
+CPRS not change; VISTA not change
+	if have to add new file types to VISTA, have to do it x130
+	if adding to vista, not solving the problem
+
+
+Four major concepts:
+- taking away, not adding/enhancing vista
+- No MUMPS alterned, or in final solution
+- national services in node/js cloud database
+- cprs/vista code do not change
+
+
+If changing vista/ fileman / cprs => FAIL
+this is not a filemn maintenance project
+
+
+Deployment plan:
+	turn OFF
+
+
+No master model
+Data modelling poor
+Putting REST on Fileman entity file
+Changing CPRS:  NOT ALLOWED.  Was specifically addressed in RTEP
+Can only write JS
+No CPRS change
+Vista loses function, not gain
+
+
+
+=> VISTA retirement project
+	If enhancing VISTA - wrong
+	This is about retiring VISTA
+
+
+
+
+Do they understand the problem?
+[1] client CPRS/server VISTA unchanged 
+[2] VISTA services (4 in particular) are being retired 
+	- no VISTA enhancement; rather there is vista retirement
+[3] the national replacement for 4 functions (in 130 VISTAS) 
+	is written in node.js/NPM install on a mainstream Cloud database
+
+... do you understand [3] === do you have a realistic architecture for a national service
+
+... did they answer the RTEP questions in particular or just give process language echo the PWS?
+
+
+
+
+
+
+
+
+
+==================== B3 Group
+
+=> have to lose on lack of specificity
+=> do not show understanding; they simply cut and pasted my own diagrams
+
+
+Deeply resent being given back my own diagrams
+"close to plagiarism"
+Research I have done myself is being 
+	Shows no understanding of research I did myself
+Would that cause any trouble?
+
+This shows no understanding of significance of diagrams
+	literally copied diagram with no modification
+No new information
+copies text and digrams verbatim from website  (my diagrams!)
+	no understanding
+Dont want to 
+Open source project -
+	but sureely they need to show understanding and knowledge
+
+
+
+
+Gov product
+Incumbent who developed is also 
+Incumbent bidding on the project
+
+Ablevets has done the VDP
+has been endorsed by a competing offering
+
+Why would we
+
+Took VA diagram and gave back to us
+
+
+No incumbent
+two respondents leveraging VDP
+	one is doing VDP
+	one is endorsing another teams know-how and VDP
+
+=> they are giving me back my own figures from my own slideware
+=> don't echo back answers to questions
+=> dont give VA slideware back to VA
+
+
+
+=> B3 has endorsed one Ablevets project
+	and have literally copy/pasted the novel digrams and documentation from Ablevets in their proposal
+	will use the work Ablevets has done to do this work
+
+
+Ablevets: have moved on from one of their existing projects - the one listed by B3.  Ablevets is an enhancment of VDP.
+
+Ablevets is not incumbent - has moved on; is experienced
+
+
+
+repeading work of open soruce va/dod project that they did not do
+which was one of the projecgts performed by another submitter (Ablevets)
+re-using diagrams and terminology from that project
+does not show capability by copying and repeating something they took off a website?
+
+This shows no understanding of the problem
+simply copying things performed in the VDP project
+by aonother applicatnt
+
+This is the nature of open source 
+just copying preveiouslfy funded governemtn work 
+shows no understanindg of problem
+nor gives any creditiliby / confidence that they can peform the work
+
+
+Close to plagiarism - because did not even bother to change the diagrams or wording.
+
+Legally they can take open source 
+
+Nothing wroing with using open source code
+but dont take and show it as is, and proclaim you now understand it
+No value-add in their copying gov funded work by another party
+
+how can we know they understand it 
+they simply copied from an 
+
+The fact they didn't modify it shows they don't understand it
+
+Verbatim, exact copies of diagrams and words from the VDP website
+shows no insight or capability
+
+
+Giving us back what we already have on the VA's website.
+
+Copy-pasting pre-exising gov funded joint va-dod research did not invole them, 	actually perofrmed by another applicant.   
+
+
+=> There is no incumbent, however must show understanding of pronciples, and cant just repeat work done by others.
+
+
+=> No mention of VISTA retirement: IOC must include
+national deployment following IOC such that CPRS is able to retain full functionality against a single centralized service, replacing those functions of the original, 131 de-centralized VistA source instances.  The Offeror’s approach shall indicate its approach to retirement of that service in the 131, de-centralized VistA instances, while maintaining full continuity of service in the CPRS client [PWS 5.7].
+
+
+=> no mention of vista retirement
+=> generic words of virtualization and defect reports;
+	not interested in VIP process
+=> want specfics of CPRS with vista is retired
+=> no RPC router
+
+
